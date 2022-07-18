@@ -1,0 +1,17 @@
+
+body {
+    margin: 0 0 auto auto;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+    font-family:  'Gill Sans', 'Gill Sans MT'; 
+    }
+
+
+    #submit {
+        font-size: 3.3rem;
+        font-weight: bold;
+        border-top: 1px solid rgb(179, 16, 16);
+        line-height: 2.5;
+    }

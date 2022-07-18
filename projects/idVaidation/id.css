@@ -1,0 +1,19 @@
+
+
+body{
+    background-color: royalblue;
+    font-style: italic;
+    font-size: small;
+    font-stretch: condensed;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+#h1{
+    font-style: oblique;
+    background-color: black;
+    font-size: medium;
+    font-display:center;
+
+}

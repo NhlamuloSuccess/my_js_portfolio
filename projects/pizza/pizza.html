@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pizza</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='pizza.css'>
+
+</head>
+<body>
+    <h1>  Welcome to Nhlamulo's pizza</h1>
+    <p>address : 11 chromium close grasmere </p>
+    <p>fcustomerHelpline : 0787331557</p>
+    <div id="orderForm">
+        <label>
+            how many pizza do you want
+            <input type="number" id="pizza"/>
+        </label>
+        <br>
+        <br>
+        <label>
+            choose flavour
+            <select id="flavour">
+                <option value="cram decker">cram decker</option>
+                <option value="Something Meaty">Something Meaty</option>
+                <option value="Spicey chicken">spicey chicken</option>
+                <option value="creamy chicken">creamy chicken</option>
+               
+            </select>
+        </label>
+        <br>
+        <br>
+        
+        <label>
+            Is it your birth month
+            <select id="birthday">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <button type="button" id="submitOrder">submitOrder</button>
+    </div>
+    <div id="displayResults"></div>
+
+    <script src='pizza.js'></script>
+</body>
+</html>

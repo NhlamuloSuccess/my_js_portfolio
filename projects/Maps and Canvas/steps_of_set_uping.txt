@@ -1,0 +1,5 @@
+npm init -y (command to initialiseor seting up the nevironment , which it will create json file with script in it)
+
+then u run 
+
+npm i --save-dev jest (it will install the jest library in ur project)
